@@ -1,0 +1,420 @@
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-15T095444.200.json
+
+###
+
+GET http://localhost:3000/products/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T052204.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T052141.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T051823.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T051749.404.html
+
+###
+
+PUT http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T051510.200.json
+
+###
+
+POST http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T051147.404.html
+
+###
+
+POST http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T051015.404.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T045929.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T045327.500.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
+
+<> 2018-10-14T045318.500.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
+
+<> 2018-10-14T044944.500.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
+
+<> 2018-10-14T044808.500.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-14T044259.500.html
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
+
+<> 2018-10-14T044228.500.html
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T043656.200.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T042637.200.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T042521.500.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T042513.200.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbeaa1ed421d8b3b7100
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041951.500.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041910.200.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041855.500.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041851-1.500.json
+
+###
+
+GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041851.500.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041837.200.json
+
+###
+
+GET http://localhost:3000/products/1001/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041834.500.json
+
+###
+
+GET http://localhost:3000/products/1001/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041833.500.json
+
+###
+
+GET http://localhost:3000/products/1001
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041830.500.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041824.200.json
+
+###
+
+GET http://localhost:3000/products/10001/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041723.500.json
+
+###
+
+GET http://localhost:3000/products/10001
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T041713.500.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-14T040801.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/products/1001/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-08T125818.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-08T125810.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-08T125733.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-08T123336.200.json
+
+###
+
+GET %20http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET %20http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+GET %20http://localhost:3000/products/votes
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET %20http://localhost:3000/products/1000000
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET %20http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET %20http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+
+###
+

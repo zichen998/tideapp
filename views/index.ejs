@@ -3,10 +3,45 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <input type="text" />
+    <input type="button" value="find" />
+    <SCRIPT   LANGUAGE=javascript>
 
+        function update(temp)
+        {
+            if(temp == 'color')
+            {
+                document.body.style.backgroundColor="#FFFFFF";
+            }
+            if(temp == 'img')
+            {
+                document.body.style.backgroundImage="https://media.giphy.com/media/6JMlyCQh0uu2s/giphy.gif"; 
+            }
+        }
+    </SCRIPT>
+    <script>
+        window.onload=function(){
+            var inp=document.getElementsByTagName("input");
+            var oP=document.getElementById("box");
+
+            inp[1].onclick=function(){
+                var str = inp[0].value;
+                if (!str)return;
+                oP.innerHTML=oP.innerHTML.split(str).join('<span>'+str+'</span>')
+            }
+        };
+
+    </script>
+
+  </head>
+  <body bgcolor="#CCFFFF">
+  <iframe src="https://giphy.com/embed/zBt4XN9y3H4LS" width="480" height="465" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lady-gaga-gif-zBt4XN9y3H4LS">via GIPHY</a></p>
+  <input type = button value="change color" onclick="update('color')">
+
+  <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <INPUT name="pclog" type="button" value="Supreme * CDG box logo" onClick="location.href='http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff'">
+    <INPUT name="pclog" type="button" value="Air Jordan 1 * Off-White" onClick="location.href='http://localhost:3000/products/5bc1bbeaa1ed421d8b3b7100'">
+    <INPUT name="pclog" type="button" value="Fragment design" onClick="location.href='http://localhost:3000/products/5bc1bc25a1ed421d8b3b7101'">
   </body>
 </html>
