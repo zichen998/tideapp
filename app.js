@@ -33,7 +33,7 @@ app.post('/products',products.addProduct);
 
 app.put('/products/:id/vote', products.incrementUpvotes);
 
-app.delete('/customers/:id',customers.deleteCustomer);
+app.delete('/products/:id',products.deleteProduct);
 app.get('/customers', customers.findAll);
 app.get('/customers/votes', customers.findTotalVotes);
 app.get('/customers/:id', customers.findOne);

@@ -1,3 +1,197 @@
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052717.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b997458d8543f8c58aef
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052602.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052548.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052541.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052536.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052527.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T052517.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051936.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051858.404.html
+
+###
+
+GET http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051853.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051841.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051829.404.html
+
+###
+
+GET http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051822.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051806.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051748.404.html
+
+###
+
+DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T051040.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
 GET http://localhost:3000/products/"Fragment%20design"
 Accept: */*
 Cache-Control: no-cache
@@ -325,198 +519,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 {"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-###
-
-POST mongodb://<1242313097@qq.com>:<xiangqianzou988>@ds139883.mlab.com:39883/productsdb/products/]
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-22T091738.200.json
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-16T115620.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-15T095444.200.json
-
-###
-
-GET http://localhost:3000/products/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T052204.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T052141.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T051823.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T051749.404.html
-
-###
-
-PUT http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T051510.200.json
-
-###
-
-POST http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T051147.404.html
-
-###
-
-POST http://localhost:3000/products/5bc367e150d79e1f10cc7cd1/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T051015.404.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T045929.200.json
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T045327.500.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
-
-<> 2018-10-14T045318.500.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
-
-<> 2018-10-14T044944.500.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
-
-<> 2018-10-14T044808.500.html
 
 ###
 
