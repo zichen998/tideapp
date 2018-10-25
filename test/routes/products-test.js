@@ -28,5 +28,36 @@ describe('products', function (){
                 });
         });
     });
+    describe('POST /products', function () {
+        it('should return confirmation message and update datastore', function(done) {
+            let product = {
+                paymenttype: 'Direct' ,
+                amount: 1600,
+                upvotes: 0
+            };
+            chai.request(server)
+                .post('/products')
+                .send(product)
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('product Successfully Added!' );
+                    done();
+                });
+        });
+        after(function  (done) {
+            chai.request(server)
+                .get('/products')
+                .end(function (err, res) {
+                    let result = _.map(res.body, (product) => {
+                        return {
+                            paymenttype: product.paymenttype,
+                            amount: product.amount
+                        };
+                    });
+                    expect(result).to.include({paymenttype: 'Direct', amount: 1600});
+                    done();
+                });
+        });
+});
 });
 module.exports = server;

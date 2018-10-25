@@ -23,6 +23,6 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "mocha test/routes/products-test.js"
+    "test": "set NODE_ENV=test && mocha test/routes/products-test.js"
   }
 }
