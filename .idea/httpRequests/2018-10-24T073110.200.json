@@ -1,0 +1,12 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd0ba6e3aa4ac29084f6fc8",
+    "paymenttype": "Pay Pal",
+    "amount": 1600,
+    "color": "white",
+    "name": "Supreme*CDG boxlogo",
+    "__v": 0
+  }
+}

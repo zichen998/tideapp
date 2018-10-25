@@ -1,0 +1,12 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd0b9e03aa4ac29084f6fc7",
+    "paymenttype": "Direct",
+    "amount": 1600,
+    "color": "black",
+    "name": "Air Jordan 1*Off-White",
+    "__v": 0
+  }
+}

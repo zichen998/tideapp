@@ -4,7 +4,8 @@ let router = express.Router();
 let mongoose = require('mongoose');
 let db = mongoose.connection;
 
-mongoose.connect('mongodb://localhost:27017/productsdb');
+var mongodbUri ='mongodb://productsdb:xiangqianzou988@ds139883.mlab.com:39883/productsdb';
+mongoose.connect(mongodbUri);
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
 });
@@ -53,7 +54,9 @@ router.addProduct = (req, res) => {
     var product = new products();
 
     product.paymenttype = req.body.paymenttype;// the requested value
-        product.amount = req.body.amount;// the requested value
+        product.amount = req.body.amount;
+    product.color = req.body.color;
+    product.name = req.body.name;
 
             product.save(function(err) {
                 if (err)
@@ -99,6 +102,33 @@ router.findTotalVotes = (req, res) => {
         else
             res.json({ totalvotes : getTotalVotes(product) });
     });
+}
+router.findBYName = (req, res) => {
+    res.setHeader('Content-Type','application/json');
+    var keyword = req.params.name;
+    var _filter = {
+        $or:[
+            {
+                name:{$regex:keyword,$options:'$i'}
+            }
+        ]
+    };
+    var count = 0;
+    products.count(_filter,function(err,account){
+        if (err){
+            res.json({errmsq : err});
+        }
+        else{
+            count = account;
+        }}
+    );
+   products.find(_filter).limit(10).sort({"_id": -1}).exec(function(err,account){
+       if(err || account.length == 0){
+           res.json({message:"products NOT Found!",errmsq:err});
+       }else{
+           res.send(JSON.stringify(account,null,5));
+       }
+   });
 }
 
 module.exports = router;

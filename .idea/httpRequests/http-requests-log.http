@@ -1,3 +1,382 @@
+GET http://localhost:3000/products/"Fragment%20design"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/Fragment%20design
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T085958.200.json
+
+###
+
+GET http://localhost:3000/products/Air%20Jordan
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T085917.200.json
+
+###
+
+GET http://localhost:3000/products/Air%20Jorda
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T085848.200.json
+
+###
+
+GET http://localhost:3000/products/"Air%20Jorda"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/"Air%20Jorda"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/Air%20Jorda
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T085819.404.html
+
+###
+
+POST http://localhost:3000/products/"Air%20Jorda
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+###
+
+POST http://localhost:3000/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T080915.200.json
+
+###
+
+DELETE http://localhost:3000/customers/5bd0bb553aa4ac29084f6fca
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073743.200.json
+
+###
+
+PUT http://localhost:3000/customers/5bd0bb553aa4ac29084f6fca/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073711.200.json
+
+###
+
+PUT http://localhost:3000/customers/5bd0bb553aa4ac29084f6fca
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073603.404.html
+
+###
+
+GET http://localhost:3000/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073545.200.json
+
+###
+
+PUT http://localhost:3000/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073525.404.html
+
+###
+
+GET http://localhost:3000/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073516.200.json
+
+###
+
+POST http://localhost:3000/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-24T073501.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1003,"name" : "Fragment design","color" : "white","paymenttype" : "Pay Pal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T073223.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1002,"name" : "Supreme*CDG boxlogo","color" : "white","paymenttype" : "Pay Pal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T073110.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1002,"name" : "Air Jordan 1*Off-White","color" : "black","paymenttype" : "Direct" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T072848.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1002,"name" : "Air Jordan 1*Off-White","color" : "black","paymenttype" : "Direct" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T072735.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1001,"name" : "supreme*CDG box logo","color" : "black","paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T072425.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1001,"name" : "supreme*CDG box logo","color" : "black","paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T072200.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id" : 1001,"name" : "supreme*CDG box logo","color" : "black","paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T071929.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T071334.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-24T071154.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST mongodb://<1242313097@qq.com>:<xiangqianzou988>@ds139883.mlab.com:39883/productsdb/products/]
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST mongodb://<1242313097@qq.com>:<xiangqianzou988>@ds139883.mlab.com:39883/productsdb/products/]
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST mongodb://<1242313097@qq.com>:<xiangqianzou988>@ds139883.mlab.com:39883/productsdb/products/]
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST mongodb://<1242313097@qq.com>:<xiangqianzou988>@ds139883.mlab.com:39883/productsdb/products/]
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-22T091738.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
+
+<> 2018-10-16T115620.200.json
+
+###
+
 GET http://localhost:3000/products/
 Accept: */*
 Cache-Control: no-cache
@@ -138,283 +517,6 @@ Content-Type: application/json
 {"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
 
 <> 2018-10-14T044808.500.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 0}
-
-<> 2018-10-14T044259.500.html
-
-###
-
-POST http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"paymenttype" : "PayPal" ,"amount" :  1600 ,"upvotes" : 1}
-
-<> 2018-10-14T044228.500.html
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T043656.200.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T042637.200.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T042521.500.json
-
-###
-
-GET http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T042513.200.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbeaa1ed421d8b3b7100
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041951.500.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041910.200.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041855.500.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041851-1.500.json
-
-###
-
-GET http://localhost:3000/products/5bc1bbafa1ed421d8b3b70ff
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041851.500.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041837.200.json
-
-###
-
-GET http://localhost:3000/products/1001/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041834.500.json
-
-###
-
-GET http://localhost:3000/products/1001/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041833.500.json
-
-###
-
-GET http://localhost:3000/products/1001
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041830.500.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041824.200.json
-
-###
-
-GET http://localhost:3000/products/10001/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041723.500.json
-
-###
-
-GET http://localhost:3000/products/10001
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T041713.500.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-14T040801.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET http://localhost:3000/products/1001/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-08T125818.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-08T125810.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-08T125733.200.json
-
-###
-
-GET http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-10-08T123336.200.json
-
-###
-
-GET %20http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET %20http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-GET %20http://localhost:3000/products/votes
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET %20http://localhost:3000/products/1000000
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET %20http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET %20http://localhost:3000/products
-Accept: */*
-Cache-Control: no-cache
 
 ###
 

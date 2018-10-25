@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const products = require("./routes/products");
-
+const customers = require("./routes/customers");
 var app = express();
 
 // view engine setup
@@ -28,13 +28,21 @@ app.use('/users', usersRouter);
 app.get('/products', products.findAll);
 app.get('/products/votes', products.findTotalVotes);
 app.get('/products/:id', products.findOne);
-
+app.get('/products/name',products.findBYName);
 app.post('/products',products.addProduct);
 
 app.put('/products/:id/vote', products.incrementUpvotes);
 
-app.delete('/products/:id',products.deleteProduct);
+app.delete('/customers/:id',customers.deleteCustomer);
+app.get('/customers', customers.findAll);
+app.get('/customers/votes', customers.findTotalVotes);
+app.get('/customers/:id', customers.findOne);
 
+app.post('/customers',customers.addCustomer);
+
+app.put('/customers/:id/vote',customers.incrementUpvotes);
+
+app.delete('/customers/:id',customers.deleteCustomer);
 
 
 // catch 404 and forward to error handler

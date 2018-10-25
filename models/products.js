@@ -8,6 +8,6 @@ let ProductSchema = new mongoose.Schema({
         amount: Number,
         upvotes: {type: Number, default: 0}
     },
-    { collection: 'productsdb' });
+    { collection: 'products' });
 
 module.exports = mongoose.model('Product', ProductSchema);

@@ -1,0 +1,10 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd0b8d9458d8543f8c58aee",
+    "paymenttype": "PayPal",
+    "amount": 1600,
+    "__v": 0
+  }
+}

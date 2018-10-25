@@ -1,0 +1,12 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd0bab63aa4ac29084f6fc9",
+    "paymenttype": "Pay Pal",
+    "amount": 1600,
+    "color": "white",
+    "name": "Fragment design",
+    "__v": 0
+  }
+}
