@@ -30,7 +30,7 @@ app.use('/users', usersRouter);
 app.get('/products', products.findAll);
 app.get('/products/votes', products.findTotalVotes);
 app.get('/products/:id', products.findOne);
-app.get('/products/name',products.findBYName);
+app.get('/products/names/:name',products.findBYName);
 app.post('/products',products.addProduct);
 
 app.put('/products/:id/vote', products.incrementUpvotes);

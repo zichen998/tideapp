@@ -1,11 +1,390 @@
-DELETE http://localhost:3000/products/5bd1f8b7fadfcf4f80be127c
+GET http://localhost:3000/products/5bd2f2383a35a718944ae576
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115503.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2f2383a35a718944ae576
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115452.200.json
+
+###
+
+GET http://localhost:3000/products/5bd2f2383a35a718944ae576
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115436.200.json
+
+###
+
+PUT http://localhost:3000/products/5bd2f2383a35a718944ae576/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115427.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115354.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115344.200.json
+
+###
+
+GET http://localhost:3000/products/names/Air
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115307.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0b9e03aa4ac29084f6fc7
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115229.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0b9e03aa4ac29084f6fc7\
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T115202.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2e88af05b9c17e8db34e6
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T114902.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T114804.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T111135.200.json
+
+###
+
+GET http://localhost:3000/products/5bd2e63351e2fc1ec491c4af
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T111126.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2e63351e2fc1ec491c4af
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T111016.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T111000.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2e7a7f35cca3880e1e6b6
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110952.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110936.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110303.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110110.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2e5445296c8330c8fb19a
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110104.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T110045.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T105441.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "Fragment design","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-10-26T105433.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd2e32d7c992c4e74424b0d
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105338.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105202.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0bab63aa4ac29084f6fc9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105145.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd0bab63aa4ac29084f6fc9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105135.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0bab63aa4ac29084f6fc9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105105.200.json
+
+###
+
+PUT http://localhost:3000/products/5bd0bab63aa4ac29084f6fc9/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T105044.200.json
+
+###
+
+GET http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T104944.200.json
+
+###
+
+POST http://localhost:3000/products/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy boost 350","colorl" : "black","upvotes" : 0}
+
+<> 2018-10-26T104934.200.json
+
+###
+
+GET http://localhost:3000/products/names/Air
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T061048.200.json
+<> 2018-10-26T104751.200.json
+
+###
+
+GET http://localhost:3000/products/5bd0b9e03aa4ac29084f6fc7
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-26T104659.200.json
 
 ###
 
@@ -16,7 +395,40 @@ Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T061031.200.json
+<> 2018-10-26T104635.200.json
+
+###
+
+GET http://localhost:3000/products/names/Air
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T081424.200.json
+
+###
+
+DELETE http://localhost:3000/products/names/Air
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T081418.404.html
+
+###
+
+DELETE http://localhost:3000/products/5bd20172baaa91535c084c46
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T064940.200.json
 
 ###
 
@@ -27,38 +439,29 @@ Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
+<> 2018-10-25T064913.200.json
+
 ###
 
-DELETE http://localhost:3000/products/5bd1f6e521bb2a4d30fa60b4
+DELETE http://localhost:3000/products/5bd2013a2500e0321c53dd84
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T060210.200.json
+<> 2018-10-25T064905.200.json
 
 ###
 
-GET http://localhost:3000/products/5bd1f6e521bb2a4d30fa60b4
+GET http://localhost:3000/products/5bd2013a2500e0321c53dd84
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T060206.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T060152.200.json
+<> 2018-10-25T064857.200.json
 
 ###
 
@@ -69,49 +472,18 @@ Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
+<> 2018-10-25T064844.200.json
+
 ###
 
-DELETE http://localhost:3000/products/5bd1f687cd381623f4e28fdb
+DELETE http://localhost:3000/products/5bd200cfe42f7d4ce0c2ccc4
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T060111.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T060057.200.json
-
-###
-
-GET http://localhost:3000/products/5bd1f594ff747e24cc8058f7
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T060054.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd1f594ff747e24cc8058f7
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T060048.200.json
+<> 2018-10-25T064838.200.json
 
 ###
 
@@ -122,7 +494,29 @@ Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T060025.200.json
+<> 2018-10-25T064822.200.json
+
+###
+
+DELETE http://localhost:3000/products/5bd20097c7c62850601df7b3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T064818.200.json
+
+###
+
+GET http://localhost:3000/products/5bd20097c7c62850601df7b3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
+
+<> 2018-10-25T064815.200.json
 
 ###
 
@@ -133,400 +527,18 @@ Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
+<> 2018-10-25T064748.200.json
+
 ###
 
-DELETE http://localhost:3000/products/5bd1f4988d54993b300c685a
+GET http://localhost:3000/products/5bd1fbdf60b7890604a58c21
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
-<> 2018-10-25T055527.200.json
-
-###
-
-GET http://localhost:3000/products/5bd1f4988d54993b300c685a
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055522.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055510.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd1f3e8d5130e1420620b49
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055501.200.json
-
-###
-
-GET http://localhost:3000/products/5bd1f3e8d5130e1420620b49
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055456.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055439.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd1f37296501d2910061fa1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055431.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T055236.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052717.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b997458d8543f8c58aef
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052602.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052548.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052541.200.json
-
-###
-
-GET http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052536.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052527.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T052517.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051936.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051858.404.html
-
-###
-
-GET http://localhost:3000/products/5bd0b8d9458d8543f8c58aee
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051853.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051841.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051829.404.html
-
-###
-
-GET http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051822.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051806.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051748.404.html
-
-###
-
-DELETE http://localhost:3000/products/5bd0b5ea458d8543f8c58aed
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T051040.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-GET http://localhost:3000/products/"Fragment%20design"
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-GET http://localhost:3000/products/Fragment%20design
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T085958.200.json
-
-###
-
-GET http://localhost:3000/products/Air%20Jordan
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T085917.200.json
-
-###
-
-GET http://localhost:3000/products/Air%20Jorda
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T085848.200.json
-
-###
-
-GET http://localhost:3000/products/"Air%20Jorda"
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-POST http://localhost:3000/products/"Air%20Jorda"
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-POST http://localhost:3000/products/Air%20Jorda
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T085819.404.html
-
-###
-
-POST http://localhost:3000/products/"Air%20Jorda
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-###
-
-POST http://localhost:3000/customers/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T080915.200.json
-
-###
-
-DELETE http://localhost:3000/customers/5bd0bb553aa4ac29084f6fca
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T073743.200.json
-
-###
-
-PUT http://localhost:3000/customers/5bd0bb553aa4ac29084f6fca/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-24T073711.200.json
+<> 2018-10-25T064746.200.json
 
 ###
 

@@ -1,0 +1,10 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5bd2e4597c992c4e74424b0e",
+    "amount": 1600,
+    "name": "Fragment design",
+    "__v": 0
+  }
+}

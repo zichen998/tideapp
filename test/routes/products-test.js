@@ -59,5 +59,18 @@ describe('products', function (){
                 });
         });
 });
+    describe('PUT /products/name/vote', () => {
+        it('should return a message and the product upvoted by 1', function(done) {
+            chai.request(server)
+                .put('/products/5bd2e4597c992c4e74424b0e/vote')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message',"product Successfully UpVoted!");
+                    expect(res.body.data.upvotes).to.equal(2);
+                    done();
+                });
+        });
+
+    });
 });
 module.exports = server;

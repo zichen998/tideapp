@@ -122,11 +122,11 @@ router.findBYName = (req, res) => {
             count = account;
         }}
     );
-   products.find(_filter).limit(10).sort({"_id": -1}).exec(function(err,account){
-       if(err || account.length == 0){
+   products.find(_filter).limit(10).sort({"_id": -1}).exec(function(err,product){
+       if(err || product.length == 0){
            res.json({message:"products NOT Found!",errmsq:err});
        }else{
-           res.send(JSON.stringify(account,null,5));
+           res.send(JSON.stringify(product,null,5));
        }
    });
 }
