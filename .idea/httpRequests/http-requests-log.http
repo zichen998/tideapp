@@ -1,3 +1,111 @@
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+<> 2018-12-09T071313.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+<> 2018-12-09T071217.200.json
+
+###
+
+POST http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+<> 2018-12-09T070909.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+<> 2018-12-06T060740.200.json
+
+###
+
+GET http://localhost:3000/products]
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+###
+
+POST http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0, "size": "XL", "url": "../../static/resources/boxlogo1.jpg"}
+
+<> 2018-12-06T060732.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-12-06T055348.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-12-06T055157.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-12-06T055024.200.json
+
+###
+
+GET http://localhost:3000/products
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name" : "yeezy 700 boost","colorl" : "black","amount" : 1600,"upvotes" : 0}
+
+<> 2018-12-03T083751.200.json
+
+###
+
 GET http://localhost:3000/products/5bd2f2383a35a718944ae576
 Accept: */*
 Cache-Control: no-cache
@@ -429,116 +537,6 @@ Content-Type: application/json
 {"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
 
 <> 2018-10-25T064940.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064913.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd2013a2500e0321c53dd84
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064905.200.json
-
-###
-
-GET http://localhost:3000/products/5bd2013a2500e0321c53dd84
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064857.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064844.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd200cfe42f7d4ce0c2ccc4
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064838.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064822.200.json
-
-###
-
-DELETE http://localhost:3000/products/5bd20097c7c62850601df7b3
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064818.200.json
-
-###
-
-GET http://localhost:3000/products/5bd20097c7c62850601df7b3
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064815.200.json
-
-###
-
-GET http://localhost:3000/products/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064748.200.json
-
-###
-
-GET http://localhost:3000/products/5bd1fbdf60b7890604a58c21
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name" : "zichen liu","email" : "1242313097@qq.com","upvotes" : 0}
-
-<> 2018-10-25T064746.200.json
 
 ###
 

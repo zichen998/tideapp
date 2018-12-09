@@ -1,0 +1,26 @@
+[
+  {
+    "upvotes": 3,
+    "_id": "5c095e2596a1fa058c2f7bc0",
+    "amount": 666,
+    "name": "Supreme*CDG boxlogo",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5c09656483a0104df81f3d2f",
+    "amount": 1600,
+    "name": "yeezy 700 boost",
+    "url": "../../static/resources/boxlogo1.jpg",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5c0d685507ed5b16988c32c1",
+    "amount": 1600,
+    "name": "yeezy 700 boost",
+    "url": "../../static/resources/boxlogo1.jpg",
+    "size": "XL",
+    "__v": 0
+  }
+]

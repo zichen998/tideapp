@@ -1,12 +1,13 @@
 let mongoose = require('mongoose');
 
 let ProductSchema = new mongoose.Schema({
-        paymenttype: String,
+        size: String,
         name : String,
         id : Number,
         color : String,
         amount: Number,
-        upvotes: {type: Number, default: 0}
+        upvotes: {type: Number, default: 0},
+        url: String
     },
     { collection: 'products' });
 

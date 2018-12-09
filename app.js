@@ -8,11 +8,24 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 const products = require("./routes/products");
-const customers = require("./routes/customers");
+
 var app = express();
 if (process.env.NODE_ENV !== 'test') {
     app.use(logger('dev'));
 }
+var allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:8084');
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.header('Access-Control-Allow-Credentials','true');
+    if (req.method === "OPTIONS")
+        res.send(200);
+    else
+        next();
+};
+app.use(allowCrossDomain);
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -36,15 +49,7 @@ app.post('/products',products.addProduct);
 app.put('/products/:id/vote', products.incrementUpvotes);
 
 app.delete('/products/:id',products.deleteProduct);
-app.get('/customers', customers.findAll);
-app.get('/customers/votes', customers.findTotalVotes);
-app.get('/customers/:id', customers.findOne);
 
-app.post('/customers',customers.addCustomer);
-
-app.put('/customers/:id/vote',customers.incrementUpvotes);
-
-app.delete('/customers/:id',customers.deleteCustomer);
 
 
 // catch 404 and forward to error handler

@@ -1,0 +1,12 @@
+{
+  "message": "product Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5c0d685507ed5b16988c32c1",
+    "amount": 1600,
+    "name": "yeezy 700 boost",
+    "url": "../../static/resources/boxlogo1.jpg",
+    "size": "XL",
+    "__v": 0
+  }
+}

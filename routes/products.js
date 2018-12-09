@@ -4,7 +4,9 @@ let router = express.Router();
 let mongoose = require('mongoose');
 let db = mongoose.connection;
 
-var mongodbUri ='mongodb://productsdb:xiangqianzou988@ds139883.mlab.com:39883/productsdb';
+// var mongodbUri ='mongodb://productsdb:xiangqianzou988@ds139883.mlab.com:39883/productsdb';
+var mongodbUri ='mongodb://localhost:27017/productsdb';
+
 mongoose.connect(mongodbUri);
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
@@ -22,7 +24,7 @@ router.findAll = (req, res) => {
         if (err)
             res.send(err);
         else
-            res.send(JSON.stringify(products,null,5));
+            res.send(products);
     });
 }
 
@@ -35,7 +37,7 @@ router.findOne = (req, res) => {
             res.json({ message: 'Product NOT Found!', errmsg : err } );
         // return a suitable error message
         else
-            res.send(JSON.stringify(products,null,5));
+            res.send(products);
 
     });
 }
@@ -54,22 +56,23 @@ router.addProduct = (req, res) => {
     var product = new products();
 
     product.paymenttype = req.body.paymenttype;// the requested value
-        product.amount = req.body.amount;
+    product.amount = req.body.amount;
     product.color = req.body.color;
     product.name = req.body.name;
-
-            product.save(function(err) {
-                if (err)
-                    res.json({ message: 'product NOT Added!', errmsg : err } );// return a suitable error message
-                else
-                    res.json({ message: 'product Successfully Added!', data: product });// return a suitable success message
-            });
+    product.url = req.body.url;
+    product.size = req.body.size;
+    product.save(function(err) {
+        if (err)
+            res.json({ message: 'product NOT Added!', errmsg : err } );// return a suitable error message
+        else
+            res.json({ message: 'product Successfully Added!', data: product });// return a suitable success message
+    });
 }
 
 
 router.incrementUpvotes = (req, res) => {
 
-    products.findById(req.params.id, function(err,product) {
+    products.findById({ "_id" : req.params.id }, function(err, product) {
         if (err)
             res.json({ message: 'product NOT Found!', errmsg : err } );
         else {
