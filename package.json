@@ -19,8 +19,6 @@
     "chai-http": "^2.0.1",
     "chai-things": "^0.2.0",
     "mocha": "^3.4.2"
-  },
-  "scripts": {
-    "test": "set NODE_ENV=test && mocha test/routes/products-test.js"
   }
+
 }
